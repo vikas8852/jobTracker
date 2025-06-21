@@ -33,14 +33,15 @@ A full-stack web application designed to streamline the process of job search an
 git clone https://github.com/vikas8852/jobProtal
 cd job-portal
 2. Install dependencies
-npm install
+npm install( in both file i.e frontend and backend)
 3. Configure Environment Variables
 Create a .env file in the root directory and add the following:
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+FRONTED_URI=http://localhost:5173
 4. Run the Server
-npm run dev
+npm run dev( in both the file)
 The server should be running on http://localhost:5000.
 
 📁 Folder Structure
